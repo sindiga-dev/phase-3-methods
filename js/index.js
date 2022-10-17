@@ -12,7 +12,7 @@ function greetProgrammer() {
   greet("Naureen");
   => "Hello, Naureen!"
 */
-function greet(name) {
+function greet(name="Naureen") {
   console.log(`Hello, ${name}!`);
 }
 
